@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></TITLE>
+<style>
+h1{
+text-align:center;
+color:red;
+}
+*{ 
+margine:0;
+padding:0;
+font-family:sans-serif;
+box -sizing:border-box;
+}
+nav{
+background-color:white;
+display:grid;
+place-items: left;
+}
+nav ul{
+ list-style-type:none;
+}
+nav ul a{
+display: inline-block;
+padding:10px;
+text-decoration:none;
+color:#000;
+transition:0.2s ease-in;
+font-size:15px;
+}
+nav ul a:hover{
+background-color:ORANGE;
+color:gold;
+}
+.items{
+ display:grid;
+grid-template-columns: repeat(3, 1fr);
+padding: 30px 20px;
+grid-row-gap:30px;
+
+}
+
+.item img{
+float:center;
+width:350px;
+height:400px;
+object-fit:cover;
+cursor:pointer;
+transition:0.2s ease;
+}
+
+.item img:hover{
+transform:scale(1.04);
+
+}
+
+.item h2{
+padding :5px;
+text-align:center;
+}
+.item button{
+padding:5px; 30px;
+border:none;
+outline:none;
+background-color:GREEN;
+color:white;
+cursor:pointer;
+border-radius:4px;
+font-size:20px;
+display:block;
+margin:0 auto;
+transition: 0.2s all;
+color:white;
+}
+
+.item button:hover{
+transform:scale(1.08);
+
+
+}
+@media screen and(max-widh:768px){
+.items{
+grid-template-columns:repeat(1, 1fr);
+}
+@media screen and(max-widh:768px){
+.items{
+grid-template-columns:repeat(1, 1fr);
+}
+a{
+color:darkwhite;
+}
+
+</head>
+</style>
+
+<body>
+<h1>Saraswati Spices</H1>
+
+<nav>
+<ul>
+<a href="1page.html"><li>HOME</li></a>
+<a href="new.html"><li>PRODUCT'S</li></a>
+<a href="about us.html"><li>ABOUT US</li></a>
+<a href="contact us.html"><li>CONTACT US</li></a>
+<a href="feedback.html"><li>FEEDBACK</li></a>
+
+</ul>
+</nav>
+
+<section class="items">
+<div class="item">
+<a href="login.html"><img src="chili4.jpg"></a>
+<h2>Chilli</h2>
+<center><h3>205rs.1kg</h3>
+<button>BUY NOW</button>
+</div>
+
+<div class="item">
+<a href="login.html"><img src="cinnamon4.jpg"></a>
+<h2>Cinnamon</h2>
+<center><h3>485rs.1kg</h3>
+<button>BUY NOW</button>
+</div>
+
+<div class="item">
+<a href="login.html"><img src="clove.png"></a>
+<h2>Clove</h2>
+<center><h3>2,099rs.1kg</h3>
+<button>BUY NOW</a></button>
+</div>
+
+<div class="item">
+<a href="login.html"><img src="cardamam8mm-370x370.jpg"></a>
+<h2>Cardamaom</h2>
+<center><h3>1128rs.1kg</h3>
+<button>BUY NOW</button>
+</div>
+
+<div class="item">
+<a href="login.html"><img src="turmeric2.jpg"></a>
+<h2>Turmeric</h2>
+<center><h3>81.69rs.1kg</h3>
+<button>BUY NOW</button>
+</div>
+
+<div class="item">
+<a href="login.html"><img src="prod-1.jpg"></a>
+<h2>Saffron</h2>
+<center><h3>1,125rs.1kg</h3>
+<button>BUY NOW</button>
+</div>
+</section>
+</body>
+</html>

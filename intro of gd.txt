@@ -1,0 +1,3 @@
+A database is a collection of organised or arranged data that can be easily accessed, updated/ modified or controlled. Information within the database can be easily placed into rows and columns, or tables. 
+Meanwhile, database management enables the user to store, manage and access data.
+ Knowing the definitions and the difference between relational database management system and database management system will help candidates to prepare well.
